@@ -15,7 +15,7 @@ public class UseServiceImpl implements UseService {
 
     private static void f(List<String> list, String haha) {
         for (int i = 0 ; i < list.size() ; ++i) {
-
+            System.out.println(haha);
         }
     }
 }
